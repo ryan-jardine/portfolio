@@ -1,16 +1,14 @@
 import Image from "next/image";
-import React from "react";
-import { Button } from "../ui/button";
-import { Badge } from "../ui/badge";
-import { CodeXmlIcon, SmileIcon, UserIcon } from "lucide-react";
+import { CodeXmlIcon, UserIcon } from "lucide-react";
 import SkillList from "./skill-list";
+import DownloadResume from "./download-resume";
 
 const About = () => {
   return (
     <div className="grid grid-cols-2 gap-4">
       <div className="flex flex-col items-center space-y-4">
         <Image src="/resume.png" alt="resume" width={400} height={600} />
-        <Button variant="outline">Download Resume</Button>
+        <DownloadResume />
       </div>
       <div className="flex flex-col justify-start space-y-6">
         <div>

@@ -1,4 +1,3 @@
-import React from "react";
 import { Badge } from "../ui/badge";
 import Image from "next/image";
 
@@ -8,7 +7,7 @@ interface Skill {
   alt: string;
 }
 
-// Frontend skills
+// frontend skills
 const frontendSkills: Skill[] = [
   { name: "Typescript", src: "/typescript.svg", alt: "Typescript" },
   { name: "Next.js", src: "/next-js.svg", alt: "Next.js" },
@@ -16,14 +15,14 @@ const frontendSkills: Skill[] = [
   { name: "Redux", src: "/redux.svg", alt: "Redux" },
 ];
 
-// Backend skills
+// backend skills
 const backendSkills: Skill[] = [
   { name: "C#", src: "/c-sharp.svg", alt: "C#" },
   { name: ".NET", src: "/dotnet.svg", alt: ".NET" },
   { name: "PostgresSQL", src: "/postgresql.svg", alt: "Postgres" },
 ];
 
-// Tools / Others
+// tools
 const toolsSkills: Skill[] = [
   { name: "Docker", src: "/docker.svg", alt: "Docker" },
   { name: "Github", src: "/github.svg", alt: "Github" },

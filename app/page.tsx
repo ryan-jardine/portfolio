@@ -1,8 +1,10 @@
+import About from "@/components/about/about";
+
 export default function Home() {
   return (
     <>
-      <section id="home" className="text-center space-y-4">
-        ...
+      <section id="home">
+        <About />
       </section>
 
       {/* Projects */}

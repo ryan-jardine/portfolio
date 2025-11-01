@@ -12,16 +12,16 @@ export function Navbar() {
         </a>
         <div className="flex items-center gap-5">
           <a
-            href="#projects"
-            className="text-sm hover:text-primary transition-colors"
-          >
-            Projects
-          </a>
-          <a
             href="#about"
             className="text-sm hover:text-primary transition-colors"
           >
             About
+          </a>
+          <a
+            href="#projects"
+            className="text-sm hover:text-primary transition-colors"
+          >
+            Projects
           </a>
           <a
             href="#contact"
@@ -29,11 +29,6 @@ export function Navbar() {
           >
             Contact
           </a>
-          <Button asChild size="sm">
-            <a href="/RyanJardine_Resume.pdf" target="_blank">
-              Resume
-            </a>
-          </Button>
           <ModeToggle />
         </div>
       </div>

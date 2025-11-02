@@ -28,6 +28,7 @@ I’m passionate about building scalable, efficient, and user-friendly applicati
 
 ## Contact
 
-- Portfolio: [ryanjardine.dev](https://ryanjardine.dev)
-- GitHub: [github.com/ryanjardine](https://github.com/ryanjardine)
-- LinkedIn: [linkedin.com/in/ryanjardine](https://linkedin.com/in/ryanjardine)
+- 🌐 Portfolio: [Ryan Jardine's Portfolio](https://portfolio-ryan-jardines-projects.vercel.app)
+- 🐙 GitHub: [ryanjardine](https://github.com/ryan-jardine)
+- 🔗 LinkedIn: [ryanjardine](https://linkedin.com/in/ryanjardine)
+- ✉️ Email: [ryanjardine43@gmail.com](mailto:ryanjardine43@gmail.com)

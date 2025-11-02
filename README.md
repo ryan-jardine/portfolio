@@ -3,8 +3,6 @@
 This is my personal portfolio website built with Next.js, React, and Tailwind CSS.  
 It showcases my background, skills, and projects as a software developer.
 
----
-
 ## Tech Stack
 
 - Next.js
@@ -12,8 +10,6 @@ It showcases my background, skills, and projects as a software developer.
 - TypeScript
 - Tailwind CSS
 - shadcn/ui
-
----
 
 ## Features
 
@@ -24,14 +20,11 @@ It showcases my background, skills, and projects as a software developer.
 - Resume download button
 - Project showcase section
 
----
-
 ## About
 
-I’m a Fullstack Software Developer with a background in Computer Science and Cyber Security (Dalhousie University, 2024).  
-I’m passionate about building scalable, efficient, and user-friendly applications using technologies like React, Next.js, TypeScript, and C#.
+I’m a Fullstack Software Developer with a background in Computer Science and Cyber Security (Dalhousie University, 2024).
 
----
+I’m passionate about building scalable, efficient, and user-friendly applications using technologies like React, Next.js, TypeScript, and C#.
 
 ## Contact
 

@@ -1,4 +1,5 @@
 import About from "@/components/about/about";
+import Contact from "@/components/contact/contact";
 import Hero from "@/components/hero/hero";
 
 export default function Home() {
@@ -7,11 +8,13 @@ export default function Home() {
       <section id="hero">
         <Hero />
       </section>
-      <section id="about">
+      <section id="about" className="scroll-mt-20">
         <About />
       </section>
       <section id="projects">...</section>
-      <section id="contact">...</section>
+      <section id="contact">
+        <Contact />
+      </section>
     </>
   );
 }

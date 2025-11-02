@@ -1,5 +1,4 @@
 import Image from "next/image";
-import DownloadResume from "../about/download-resume";
 import { Button } from "../ui/button";
 
 const Hero = () => {
@@ -12,7 +11,9 @@ const Hero = () => {
           applications with React, Next.js, TypeScript, and C#. I love creating
           modern solutions that make a difference.
         </p>
-        <Button className="cursor-pointer">Contact Me</Button>
+        <Button className="cursor-pointer">
+          <a href="#contact">Contact Me</a>
+        </Button>
       </div>
 
       <div className="flex justify-center md:justify-end">

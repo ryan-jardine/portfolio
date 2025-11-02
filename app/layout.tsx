@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className="scroll-smooth">
       <body
         className={cn(
           inter.className,
@@ -27,7 +27,7 @@ export default function RootLayout({
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-          <main className="max-w-5xl mx-auto px-6 py-12 space-y-24 scroll-smooth">
+          <main className="max-w-5xl mx-auto px-6 py-12 space-y-24">
             <Navbar />
             {children}
             <Footer />

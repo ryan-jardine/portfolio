@@ -10,7 +10,11 @@ const DownloadResume = () => {
   };
 
   return (
-    <Button variant="outline" onClick={handleDownload}>
+    <Button
+      variant="outline"
+      onClick={handleDownload}
+      className="cursor-pointer"
+    >
       Download Resume
     </Button>
   );

@@ -1,15 +1,11 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import ModeToggle from "./mode-toggle";
 
 export function Navbar() {
   return (
     <nav className="border-b border-border/40 backdrop-blur-md sticky top-0 z-50 bg-background/70">
-      <div className="max-w-5xl mx-auto flex justify-between items-center px-6 py-3">
-        <a href="#home" className="font-semibold text-lg text-primary">
-          Ryan Jardine
-        </a>
+      <div className="max-w-5xl mx-auto flex justify-end items-center px-6 py-3">
         <div className="flex items-center gap-5">
           <a
             href="#about"
